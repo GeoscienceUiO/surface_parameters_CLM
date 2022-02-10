@@ -11,7 +11,7 @@ They were tested on Saga using
 ## 1. Install dependencies
 
 To install dependencies, run
-bash```
+```bash
 ./install/install.sh Fennoscandia_0.1.ini
 ```
 where `Fennoscandia_0.1.ini` is a settings file containing the information
@@ -24,7 +24,7 @@ It is safer to execute the steps manually in a bash shell.
 ## 2. Generate a land surface parameter file
 
 Run
-bash```
+```bash
 ./run_surfdata.sh Fennoscandia_0.1.ini
 ```
 This will create a land surface parameter file for the region defined in
